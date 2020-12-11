@@ -41,7 +41,7 @@ export default {
   width: 80%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 27% 25% 24% 22%;
+  grid-template-columns: 24% 23% 23% 22%;
   grid-template-rows: minmax(min-content, max-content);
   grid-gap: 30px;
 }
