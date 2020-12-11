@@ -1,24 +1,13 @@
 # testimonials
 
-## Project setup
-```
-npm install
-```
+## To run this project
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. First install the project running the command npm install
 
-### Compiles and minifies for production
-```
-npm run build
-```
+2. To run the project:
+ - Install JSON Server to your machine running the command npm install -g json-server
+ - Open the terminal and navigate to the project folder
+ - Run the server with the command json-server --watch db.json
+ - Run the project with the command npm run serve
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ Note: localhost and the server should run in different ports.

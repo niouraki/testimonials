@@ -1,28 +1,42 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TestimonialWrapper />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TestimonialWrapper from './components/TestimonialWrapper.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TestimonialWrapper
   }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+html, body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: hsl(210, 46%, 95%);
+  height: 99%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    display: unset;
+    align-items: unset;
+  } 
 }
 </style>
